@@ -69,8 +69,8 @@ export default function Rides({ goBack, from, to }) {
       merchant_key: "ql9cksogtrijf",
       amount: "10.00",
       item_name: "EzRide Posting Fee",
-      return_url: "https://YOUR-LIVE-DOMAIN/?payment=success",
-      cancel_url: "https://YOUR-LIVE-DOMAIN/",
+      return_url: "https://ezride-lemon.vercel.app/?payment=success",
+      cancel_url: "https://ezride-lemon.vercel.app/",
     };
 
     for (const key in fields) {
